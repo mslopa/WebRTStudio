@@ -1,0 +1,112 @@
+.navbar {
+    background-color: #07060f;
+    color: #fff;
+    padding: 10px 20px;
+    display:flex;
+    justify-content:flex-end;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+   
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+    border-radius: 20px; /* Adjust the value to change the roundness */
+  /* Button background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add cursor pointer on hover */
+  transition: background-color 0.3s ease;
+
+    
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    background-color: #c21ee7;
+  }
+  .nav-link:hover {
+    
+    border-radius: 3px;
+  }
+  .main-container
+  {
+    background: #001224;
+  }
+  
+  .run-btn {
+
+  border-radius: 20px; /* Adjust the value to change the roundness */
+  background-color: #cb0a6e; /* Button background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add cursor pointer on hover */
+  transition: background-color 0.3s ease;
+  }
+
+  ul li {
+    display: inline; /* Display list items horizontally */
+  }
+
+  ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.header 
+{
+
+    background-color: #0a0a0a;
+    color: #e8f44b;
+    font-weight: bold;
+}
+a {
+    color: white;
+    text-decoration: none;
+  }
+a.button {
+
+    background-color: #27058d;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+   
+  }
+.togglebutton {
+    background-color: #280593;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px ;
+  }

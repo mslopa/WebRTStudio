@@ -1,0 +1,91 @@
+.navbars{
+  background-color: #2011c1;
+    color: #fff;
+    padding: 5px 10px;
+    display:flex;
+    justify-content:flex-end;
+     
+}
+
+.toggle{
+
+  background-color: #141219;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px ;
+
+}
+body,html
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow:auto;
+}
+
+.container{
+  
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.scrollable-component
+{
+
+  overflow: auto;
+}
+
+.whiteboard {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container{
+  position: absolute;
+  top: 37%; /* Positioned below the second component */
+  left: 20%;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  z-index: 3;
+}
+
+/*.toggle {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 4;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle + .toggle {
+  left: 180px; /* Adjust as necessary 
+}*/
+
+
+
+
+
+
+

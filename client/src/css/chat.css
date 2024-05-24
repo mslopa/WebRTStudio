@@ -1,0 +1,115 @@
+body{
+
+    padding: 20px;
+}
+
+.chatPage{
+    height: 600px;
+    width: 600px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    
+}
+
+.chatContainer{
+    color: white;
+    background-color: rgb(246, 227, 240);
+    height: 600px;
+    width: 600px; 
+}
+
+.headers{
+  background-color: rgb(72, 3, 72);
+   height: 15%;
+   display: flex;
+   align-items: center;
+   border-radius:-1px ;
+   border-left: none;
+   justify-content: center;
+   
+}
+
+.header>h2{
+    font-size: 2.0vmax;
+    color: white;
+    margin: 3.5vmax;
+    display:flex;
+
+}
+ 
+.chatBox{
+
+ height: 70%;
+ box-sizing: border-box;
+ 
+}
+
+.inputBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.inputBox input{
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+
+}
+
+#chatInput{
+    
+    box-sizing: border-box;
+    background-color: white;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2vmax;
+    border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
+     /* Adjusted width to account for padding and border */
+    padding:  10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.inputBox button 
+{
+    color: white;
+    margin: 0;
+    border: none;
+    background:rgb(72, 3, 72) ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 13px;
+    
+}
+.messages{
+
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    max-width: 70%;
+}
+
+.messages li 
+{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #080202;
+    text-decoration: solid;
+    background-color: #f88fd7;
+    padding: 8px 12px;
+    border-radius: 20px;
+    max-width: 30%;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
